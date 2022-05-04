@@ -1,0 +1,88 @@
+
+body {
+	background: center fixed;
+ 	background-image: radial-gradient(circle at 50% -20.71%, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
+ }
+ @font-face {
+  font-family: "UniSansHeavyCAPS";
+  src: url("Uni Sans Heavy.otf");
+}
+#FotoTSD {
+  width: 100px;
+  height: 100px;
+}
+nav {
+  font-family: Arial;
+  list-style: none;
+  padding: .5rem 2rem;
+  background: #000093FF;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  }
+ nav ul{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+ }
+ nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  font-size: 20px;
+ }
+ nav li {
+  margin-right: 1rem;
+  text-decoration: none;
+  list-style: none;
+ }
+ nav li a:hover{
+  background: #008FF5FF;
+ }
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: UniSansHeavyCAPS;
+    color: #01AABBFF;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px black;
+    background-color: #3963C5FF;
+    margin: 0;
+ }
+ #descripcion {
+  text-align: center;
+  background: #3963C5FF;
+  margin: 0;
+  font-size: 20px;
+ }
+ #preguno {
+   font-size: 20px;
+ }
+ #pregdos {
+  font-size: 20px;
+}
+ #pregtres {
+  font-size: 20px;
+}
+ #pregcuatro {
+  font-size: 20px;
+}
+ div {
+ 	text-align: center;
+ }
+ section {
+ 	text-align: center;
+ }
+ footer {
+ 	text-align: right;
+ }
+ #unirse {
+   text-align: center;
+ }
